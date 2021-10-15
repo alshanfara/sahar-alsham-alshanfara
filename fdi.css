@@ -56,7 +56,7 @@ ul.nav.nav-tabs {
 }
 
 div#l1.grow.break.tab-pane.fade.active.in {
-    -webkit-transform: matrix(1,0,0,1,0,88)!important;
+    -webkit-transform: matrix(1,0,0,1,0,105)!important;
     position: absolute!important;
     width: 58%!important;
     /* margin-top:-2.8px!important; */
@@ -73,7 +73,7 @@ div#l2,div#l3,div#l1.grow.break.tab-pane.fade.active.in {
 }
 
 div#l2,div#l3 {
-    -webkit-transform: matrix(1,0,0,1,0,166)!important;
+    -webkit-transform: matrix(1,0,0,1,0,169)!important;
     position: absolute!important;
     width: 58%!important;
     margin-top: 6px!important;
