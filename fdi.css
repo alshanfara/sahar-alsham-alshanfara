@@ -17,7 +17,7 @@ ul.nav.nav-tabs.fl li .fa-user:before,.fa-user-plus:before {
 }
 
 ul.nav.nav-tabs.fl li a:hover {
-    background-image: linear-gradient( 90deg,#e6e6e6 0,#d2d1d1 10%,#979696 51%,#d2d1d1 89%,#e6e6e6 100%);
+    background-image: linear-gradient(90deg,#00a372 0,#33d5a4 10%,#00a372 51%,#31d3a2 89%,#00a372 100%);
 }
 
 ul.nav.nav-tabs.fl li {
@@ -31,7 +31,7 @@ ul.nav.nav-tabs.fl li {
 
 ul.nav.nav-tabs.fl li a {
     background-color: #606060!important;
-    background-image: linear-gradient(90deg,#e6e6e6 0,#d2d1d1 10%,#979696 51%,#d2d1d1 89%,#e6e6e6 100%);
+    background-image: linear-gradient(90deg,#00a372 0,#33d5a4 10%,#00a372 51%,#31d3a2 89%,#00a372 100%);
     color: #fff;
     margin: auto;
     text-align: center;
@@ -41,8 +41,7 @@ ul.nav.nav-tabs.fl li a {
     margin-top: 2px;
     padding: 2px 0!important;
     font-family: el messiri,FontAwesome!important;
-    margin-right: 38px;
-    border: 1px solid #4c4b4b;
+    margin-left: -219px;
 }
 
 ul.nav.nav-tabs {
@@ -56,16 +55,17 @@ ul.nav.nav-tabs {
 }
 
 div#l1.grow.break.tab-pane.fade.active.in {
-    -webkit-transform: matrix(1,0,0,1,0,105)!important;
+    -webkit-transform: matrix(1,0,0,1,0,104)!important;
     position: absolute!important;
     width: 58%!important;
-    /* margin-top:-2.8px!important; */
     margin-left: 2px!important;
     height: 99px;
-    background-color: #999898;
-    background-image: linear-gradient(90deg,#dadada 0,rgb(175 174 174) 10%,rgb(192 192 192) 51%,rgb(173 172 172) 89%,#d6d6d6 100%);
+    background-color: #2fd1a0;
+    background-image: linear-gradient(
+90deg,#00a372 0,#33d5a4 10%,#00a372 51%,#31d3a2 89%,#00a372 100%);
     border-radius: 3px;
     border: 1px solid #4c4b4b;
+    margin-left: 150px!important;
 }
 
 div#l2,div#l3,div#l1.grow.break.tab-pane.fade.active.in {
@@ -73,15 +73,14 @@ div#l2,div#l3,div#l1.grow.break.tab-pane.fade.active.in {
 }
 
 div#l2,div#l3 {
-    -webkit-transform: matrix(1,0,0,1,0,169)!important;
+    -webkit-transform: matrix(1,0,0,1,0,166)!important;
     position: absolute!important;
     width: 58%!important;
     margin-top: 6px!important;
-    margin-left: 2px!important;
-    height: 99px;
+    margin-left: 151px!important;
     border-radius: 3px;
-    background-color: #f0f0f0;
-    background-image: linear-gradient(90deg,#e6e6e6 0,#d2d1d1 10%,#979696 51%,#d2d1d1 89%,#e6e6e6 100%);
+    background-color: #00a372;
+    background-image: linear-gradient(90deg,#00a372 0,#33d5a4 10%,#00a372 51%,#31d3a2 89%,#00a372 100%);
 }
 
 label.fl.label.loginstat {
@@ -95,18 +94,19 @@ label.fl.label.loginstat {
     font-size: 14px!important;
     margin-left: -4px!important;
     border: 1px solid #1ff700;
-    background-image: linear-gradient( 90deg,#e6e6e6 0,#d2d1d1 10%,#979696 51%,#d2d1d1 89%,#e6e6e6 100%);
-}
+    background-image: linear-gradient(
+90deg,#00a372 0,#33d5a4 10%,#00a372 51%,#31d3a2 89%,#00a372 100%);}
 
 #des1 {
     margin-bottom: 2px;
     margin-top: 4px;
     font-family: el messiri,FontAwesome!important;
-    background-image: radial-gradient(farthest-corner,#8c2720 0,#8c2720 49%,#8c2720 50%,#d57b75 100%);
+    background-image: linear-gradient(
+90deg,#00a372 0,#33d5a4 10%,#00a372 51%,#31d3a2 89%,#00a372 100%);
     color: #f9f9f9;
     border-radius: 0;
-    border-bottom: 1px solid #4c4b4b;
-    border-top: 1px solid #4c4b4b;
+    border-bottom: 1px solid #2ed09f;
+    border-top: 1px solid #14b685;
     padding-bottom: 3px
 }
 
@@ -121,12 +121,15 @@ label.fl.label.loginstat {
 #des3 {
     font-family: el messiri!important;
     font-size: 14px!important;
+    background-image: linear-gradient(
+90deg,#00a372 0,#33d5a4 10%,#00a372 51%,#31d3a2 89%,#00a372 100%);
 }
 
 #des4 {
     font-family: el messiri,FontAwesome!important;
     color: #f9f9f9!important;
-    background-image: radial-gradient(farthest-corner,#e03131 0,#e03131 49%,#e03131 50%,#fda9a9 100%);
+    background-image: linear-gradient(
+90deg,#00a372 0,#33d5a4 10%,#00a372 51%,#31d3a2 89%,#00a372 100%);
     font-size: 13px!important;
     text-align: center!important
 }
@@ -148,12 +151,11 @@ div#l1 input#u1 {
 div#l2 button.btn.btn-primary,div#l1 button.btn.btn-primary,div#l3 button.btn.btn-primary {
     border-radius: 3px!important;
     width: 85px;
-    position: inherit;
     height: 26px;
     padding: 0 0 3px;
     border: 0 solid#ffffff!important;
     font-family: el messiri,FontAwesome!important;
-    border: 1px solid #6f150e!important
+    border: 1px solid #ebebeb!important;
 }
 
 div#l1 button.btn.btn-primary {
@@ -163,36 +165,32 @@ div#l1 button.btn.btn-primary {
 
 div#l2 input#u2,div#l3 input#u3 {
     font-family: el messiri,FontAwesome!important;
-    border-left: 1px solid#c27ba0!important;
-    border-right: 1px solid#c27ba0!important;
-    border-top: 1px solid#9d778b!important;
-    border-bottom: 1px solid#9d778b!important;
     width: 105%;
     padding: 0!important;
     margin-left: -4px!important;
     text-align: center;
     height: 30px;
     border-radius: 3px;
-    margin-top: -4px!important
+    margin-top: -4px!important;
 }
 
 div#l2 input#pass1,div#l3 input#pass2 {
-    border-left: 1px solid#c27ba0!important;
-    border-right: 1px solid#c27ba0!important;
-    border-top: 1px solid#9d778b!important;
-    border-bottom: 1px solid#9d778b!important;
     height: 30px;
     width: 105%;
     padding: 0!important;
     border-radius: 3px;
     margin-top: 2px;
     margin-left: -4px!important;
-    text-align: center
+    text-align: center;
+    font-family: el messiri,FontAwesome!important;
 }
 
 div#l2 button.btn.btn-primary,div#l3 button.btn.btn-primary {
     margin-left: 127px!important;
-    margin-top: 2px!important
+    margin-top: 2px!important;
+    background-image: linear-gradient(
+90deg,#00a372 0,#33d5a4 10%,#00a372 51%,#31d3a2 89%,#00a372 100%);
+    color: gold;
 }
 
 .checkbox {
@@ -228,7 +226,8 @@ div#tlogins ::-webkit-scrollbar-thumb {
     background: #61616147;
     border: 71px #fff;
     border-radius: 31px;
-    background-image: radial-gradient(farthest-corner,#8d2822 0,#8c261f 49%,#8e2a23 50%,#f5f5f5 100%)!important
+    background-image: linear-gradient(
+90deg,#00a372 0,#33d5a4 10%,#00a372 51%,#31d3a2 89%,#00a372 100%);
 }
 
 div#tlogins ::-webkit-scrollbar-thumb:hover {
@@ -258,8 +257,8 @@ div#tlogins ::-webkit-scrollbar-corner {
 }
 
 div#tlogins span.corner.u-topic.dots {
-    background-image: linear-gradient(90deg,rgba(249,249,249,0.46) 0,rgba(249,249,249,0.32) 10%,rgba(245,24,8,0) 51%,rgba(251,250,250,0.35) 89%,rgba(247,246,246,0.48) 100%)!important;
-    float: left;
+    background-image: linear-gradient(
+90deg,#00a372 0,#33d5a4 10%,#00a372 51%,#31d3a2 89%,#00a372 100%);    float: left;
     border-radius: 3px!important;
     max-width: 100%!important
 }
@@ -281,14 +280,18 @@ div#tlogins .fl.mini.u-msg {
     margin-top: 7px!important;
     border-radius: 8px!important
 }
+.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
+    position: absolute;
+    margin-top: -20px;
+}
 
 .label-primary,.btn-primary {
-    font-family: el messiri,FontAwesome!important
+    font-family: el messiri,FontAwesome!important;
 }
 
 button.btn.fr.btn-success.fa.fa-refresh {
     background-color: #787474;
     margin-top: 1px!important;
     border: 1px solid #000000!important;
-    background-image: linear-gradient( 90deg,#e6e6e6 0,#d2d1d1 10%,#979696 51%,#d2d1d1 89%,#e6e6e6 100%);
-}
+    background-image: linear-gradient(
+90deg,#00a372 0,#33d5a4 10%,#00a372 51%,#31d3a2 89%,#00a372 100%);}
