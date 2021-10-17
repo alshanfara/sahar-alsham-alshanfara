@@ -42,7 +42,7 @@ ul.nav.nav-tabs.fl li a {
     margin-top: 2px;
     padding: 2px 0!important;
     font-family: el messiri,FontAwesome!important;
-    margin-left: -219px;
+    margin-left: -225px;
 }
 
 ul.nav.nav-tabs {
@@ -78,11 +78,11 @@ div#l2,div#l3,div#l1.grow.break.tab-pane.fade.active.in {
 }
 
 div#l2,div#l3 {
-    -webkit-transform: matrix(1,0,0,1,0,166)!important;
+    -webkit-transform: matrix(1,0,0,1,0,168)!important;
     position: absolute!important;
     width: 58%!important;
     margin-top: 6px!important;
-    margin-left: 151px!important;
+    margin-left: 155px!important;
     border-radius: 3px;
     background-color: #064272;
     background-image: linear-gradient(90deg,#064272 0,#3179b3 10%,#064272 51%,#3179b3 89%,#064272 100%);
