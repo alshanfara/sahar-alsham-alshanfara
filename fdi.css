@@ -9,7 +9,7 @@
 
 .btn-primary {
     border: 1px solid #514848!important;
-    background-image: linear-gradient( 90deg,#e6e6e6 0,#d2d1d1 10%,#979696 51%,#d2d1d1 89%,#e6e6e6 100%);
+    background-image: linear-gradient(90deg,#00a372 0,#33d5a4 10%,#00a372 51%,#31d3a2 89%,#00a372 100%);
 }
 
 ul.nav.nav-tabs.fl li .fa-user:before,.fa-user-plus:before {
@@ -66,6 +66,10 @@ div#l1.grow.break.tab-pane.fade.active.in {
     border-radius: 3px;
     border: 1px solid #4c4b4b;
     margin-left: 150px!important;
+}
+.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
+    position: absolute;
+    margin-top: -20px;
 }
 
 div#l2,div#l3,div#l1.grow.break.tab-pane.fade.active.in {
@@ -279,10 +283,6 @@ div#tlogins span.corner.u-topic.dots {
 div#tlogins .fl.mini.u-msg {
     margin-top: 7px!important;
     border-radius: 8px!important
-}
-.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
-    position: absolute;
-    margin-top: -20px;
 }
 
 .label-primary,.btn-primary {
